@@ -1,5 +1,7 @@
 name: CI                        # the name shown in the Actions tab  
+
 on: [push]                      # TRIGGER: run on every push, automatically  
+
 jobs:
   test:     
     runs-on: ubuntu-latest      # GitHub creates a fresh Linux machine     
